@@ -19,19 +19,25 @@ int main(){
     switch(inputOperator){
         case '+':
             hasil = angka1 + angka2;
+            cout << "Hasilnya adalah : " << hasil;
             break;
         case '-':
             hasil = angka1 - angka2;
+            cout << "Hasilnya adalah : " << hasil;
             break;
         case '*':
             hasil = angka1 * angka2;
+            cout << "Hasilnya adalah : " << hasil;
             break;
         case '/':
             hasil = angka1 / angka2;
+            cout << "Hasilnya adalah : " << hasil;
             break;
+        default:
+            cout << "Operator Tidak Valid!";
     }
 
-    cout << "Hasilnya adalah : " << hasil;
+    
 
 
     return 0;
